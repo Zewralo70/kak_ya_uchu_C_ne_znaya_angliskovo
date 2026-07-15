@@ -1,0 +1,13 @@
+//1
+#include <stdio.h>
+int main() {
+printf("Hello World!") //ошибка, забыт ; в конце
+//2
+#include stdio.h //ошибка, библиотека пишется в <>
+//3
+#include <stdio.h>; //ошибка, ; после библиотеки не пишут.
+//4
+#include <stdio.h>
+main() { //ошибка, main() в int надо писать
+//5
+#include <stdio.f> //ошибка, не f а h
